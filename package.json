@@ -1,0 +1,24 @@
+{
+    "name": "f2egame-admin",
+    "version": "1.0.2",
+    "description": "searches for files",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "JavaScript Playground",
+    "license": "ISC",
+    "preferGlobal": true,
+    "bin": {
+        "f2egame-admin": "bin/index.js"
+    },
+    "dependencies": {
+        "chalk": "^1.1.3",
+        "co": "^4.6.0",
+        "co-prompt": "^1.0.0",
+        "commander": "^2.9.0",
+        "download-git-repo": "^1.0.2"
+    },
+    "devDependencies": {
+        "ora": "^2.1.0"
+    }
+}
